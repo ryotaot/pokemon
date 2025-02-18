@@ -37,7 +37,7 @@ function App() {
         <h1>ロード中</h1>
       ) : (
         <>
-          <div className="pokemonCardContainer">
+          <div className="ContpokemonCardainer">
             {_pokemonData.map((pokemon, index) => {
               return <Card key={index} pokemon={pokemon} />;
             })}
